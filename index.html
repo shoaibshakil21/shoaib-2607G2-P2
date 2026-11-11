@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ur" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio & Business</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Header / Navigation Bar -->
+    <header>
+        <div class="container nav-container">
+            <a href="#" class="logo">Brand<span>Name</span></a>
+            <nav>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <button class="menu-toggle" id="menuToggle">☰</button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container hero-content">
+            <h1>Welcome to <span>Our Digital World</span></h1>
+            <p>We craft high-quality web solutions, premium designs, and modern digital experiences.</p>
+            <div class="hero-btns">
+                <a href="#services" class="btn btn-primary">Our Services</a>
+                <a href="#contact" class="btn btn-secondary">Contact Us</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About <span>Us</span></h2>
+            <div class="about-grid">
+                <div class="about-card">
+                    <h3>Quality & Elegance</h3>
+                    <p>We deliver top-tier designs tailored to your needs with absolute precision and focus on detail.</p>
+                </div>
+                <div class="about-card">
+                    <h3>Creative Vision</h3>
+                    <p>Bringing modern concepts to life with innovative styles, rich color schemes, and seamless code.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">Our <span>Services</span></h2>
+            <div class="services-grid">
+                <div class="service-box">
+                    <div class="icon">💻</div>
+                    <h3>Web Development</h3>
+                    <p>Responsive, fast, and clean websites built with HTML5, CSS3, and JavaScript.</p>
+                </div>
+                <div class="service-box">
+                    <div class="icon">🎨</div>
+                    <h3>Graphic & Branding</h3>
+                    <p>Custom logos, visual identities, typography, and premium design branding.</p>
+                </div>
+                <div class="service-box">
+                    <div class="icon">🚀</div>
+                    <h3>Digital Marketing</h3>
+                    <p>Strategies to grow your brand reach, customer base, and market presence.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In <span>Touch</span></h2>
+            <form id="contactForm" class="contact-form">
+                <input type="text" id="name" placeholder="Your Name" required>
+                <input type="email" id="email" placeholder="Your Email" required>
+                <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+            <p id="formStatus" class="form-status"></p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 All Rights Reserved | Designed with Passion</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
